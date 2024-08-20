@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(252, 218, 245);
+}
+
+.menu-horizontal{
+    background-color: rgb(253, 156, 249);
+    overflow: hidden;
+}
+.menu-horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.menu-horizontal li {
+    display: inline;
+}
+.menu-horizontal a {
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: backgroud-color 0.3s;
+}
+.menu-horizontal a:hover {
+    background-color: blueviolet;
+}
